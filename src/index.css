@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-deck {
+  display: flex !important;
+  margin-right: -15px !important;
+  margin-left: -15px !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+}
+
+.card-deck .card {
+  flex: auto !important;
+  margin-right: 15px !important;
+  margin-bottom: 30px !important;
+  margin-left: 15px !important;
+  width: 30% !important;
+}
